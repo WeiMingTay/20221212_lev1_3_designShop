@@ -1,0 +1,25 @@
+.disclaimer {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  border-top: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+.disclaimer div ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  color: darkgray;
+}
+.disclaimer a {
+  text-decoration: none;
+  color: inherit;
+}
+.disclaimer p a {
+  font-weight: 600;
+  transition: all 500ms;
+}
+.disclaimer p a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=Disclaimer.css.map */

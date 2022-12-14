@@ -1,0 +1,48 @@
+.artikelContainer {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 2rem;
+	padding: 4rem;
+
+	article {
+		box-shadow: 0 0 10px 1px lightgray;
+		display: flex;
+		flex-direction: column;
+	}
+	.produktImage {
+		overflow: hidden;
+
+		img {
+			width: 100%;
+			transition: scale 500ms;
+			&:hover {
+				scale: 1.25;
+			}
+		}
+	}
+	.produktInfos {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		min-height: 20%;
+
+
+		font-size: 1rem;
+		padding: 1rem 0.5rem .25rem .5rem;
+
+		p:first-of-type {
+			font-weight: bold;
+		}
+		p:last-of-type {
+			font-style: italic;
+			font-size: 1.1rem;
+			text-align: end;
+		}
+	}
+	article:nth-of-type(5) {
+		grid-column: 1 / 3;
+	}
+	article:nth-of-type(6) {
+		grid-column: 3 / 5;
+	}
+}

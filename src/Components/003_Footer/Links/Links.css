@@ -1,0 +1,28 @@
+.linksContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.linksContainer div {
+  width: 100%;
+}
+.linksContainer div h4 {
+  margin-bottom: 1rem;
+}
+.linksContainer div:last-of-type {
+  text-align: end;
+}
+.linksContainer div:last-of-type div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.linksContainer div:last-of-type div a {
+  color: inherit;
+}
+.linksContainer div:last-of-type div i {
+  font-size: 1.5rem;
+}
+.linksContainer b {
+  color: rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=Links.css.map */

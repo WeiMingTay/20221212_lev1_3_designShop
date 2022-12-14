@@ -1,0 +1,30 @@
+.linksContainer {
+	display: flex;
+	justify-content: space-between;
+	gap: 3rem;
+
+	div {
+		width: 100%;
+		h4 {
+			margin-bottom: 1rem;
+		}
+	}
+	div:last-of-type {
+		text-align: end;
+
+		div {
+			display: flex;
+			justify-content: flex-end;
+			gap: 1rem;
+			a {
+				color: inherit;
+			}
+			i {
+				font-size: 1.5rem;
+			}
+		}
+	}
+	b {
+		color: rgba(black, 0.5);
+	}
+}

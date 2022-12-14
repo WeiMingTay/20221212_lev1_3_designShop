@@ -1,0 +1,26 @@
+.disclaimer {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	width: 100%;
+	border-top: 1px solid lightgray;
+	display: flex;
+	justify-content: space-between;
+
+	div ul {
+		display: flex;
+		gap: 1rem;
+		list-style: none;
+		color: darkgray;
+	}
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+    p a {
+        font-weight: 600;
+        transition: all 500ms;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
